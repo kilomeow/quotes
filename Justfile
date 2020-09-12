@@ -116,8 +116,8 @@ workbox_config 	:= "workbox.config.cjs"
 
 @static:
 	echo "⚗️  Copying static files"
-	cp -RT {{src}}/Favicons/ {{dist}}/
-	cp -RT {{src}}/Manifests/ {{dist}}/
+	cp -R {{src}}/Favicons/. {{dist}}/
+	cp -R {{src}}/Manifests/. {{dist}}/
 
 
 
